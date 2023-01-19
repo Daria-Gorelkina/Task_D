@@ -1063,3 +1063,18 @@ progress {
     color: #112d49;
     font-weight: 700;
 }
+
+.foot {
+    font-weight: 500;
+    font-size: 92%;
+    color: #0e57a1;
+    margin: 0px;
+}
+
+.foot1 {
+    color: #001e3c;
+}
+
+.icon {
+    margin: 15px;
+}
