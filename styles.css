@@ -1015,9 +1015,11 @@ progress {
     position: relative;
 	width: 250px;
 	height: 150px;
-	text-align: center;
-	line-height: 100px;
+	text-align: left;
+	line-height: 20px;
+	font-size: 89%;
 	background-color: #fff;
+	padding: 10px;
 	margin-top: 15px;
 	margin-left: 0px;
 	margin-right: 0px;
@@ -1045,4 +1047,19 @@ progress {
     position: relative;
     top: 60px;
     right: 25px;
+}
+
+.person1 {
+    margin: 45px 5px 10px 55px;
+}
+
+.person_name {
+    margin-top: 65px;
+    color: #3b76b1;
+    font-weight: 500;
+}
+
+.text_person {
+    color: #112d49;
+    font-weight: 700;
 }
