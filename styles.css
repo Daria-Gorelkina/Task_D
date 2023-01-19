@@ -1010,3 +1010,39 @@ progress {
   overflow: visible;
   text-align: center;
 }
+
+.speech {
+    position: relative;
+	width: 250px;
+	height: 150px;
+	text-align: center;
+	line-height: 100px;
+	background-color: #fff;
+	margin-top: 15px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+}
+
+.speech:after {
+    content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+	left: 30px;
+	top: 150px;
+	border: 20px solid;
+	border-color: #fff #fff transparent transparent;
+}
+
+.strela1 {
+    position: relative;
+    top: 60px;
+    left: 75px;
+}
+
+.strela2 {
+    position: relative;
+    top: 60px;
+    right: 25px;
+}
